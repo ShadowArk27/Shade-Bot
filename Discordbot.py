@@ -387,6 +387,8 @@ client.run('NzQwMjIzNTU1MDM1MjAxNTY3.Xyl46A.c9kmwJtwe8VgQUIIslAloJzMR6Q')
 
 charizardimage = 'https://cdn.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/1200px-006Charizard.png'
 
+client.login(process.env.BOT_TOKEN)
+
 """
 @client.event
 async def on_member_join(member):
